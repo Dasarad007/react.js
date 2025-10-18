@@ -37,8 +37,9 @@ function App() {
           <p><strong>City:</strong> {weather.name}</p>
           <p><strong>Temperature:</strong> {weather.main.temp} °C</p>
           <p><strong>Condition:</strong> {weather.weather[0].description}</p>
-          <p><strong>Humidity:</strong> {weather.main.humidity}%</p>
+              <p><strong>Humidity:</strong> {weather.main.humidity}%</p>
           <p><strong>Wind Speed:</strong> {weather.wind.speed} m/s</p>
+          
         </div>
         
       )}
